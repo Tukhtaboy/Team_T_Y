@@ -1,7 +1,7 @@
 package com.example.ElectionDemo.helpers;
 
 /**
- * Author: Ulug'bek Ro'zimboyev  <ulugbekrozimboyev@gmail.com>
+ * Author: Tukhtaboy Jumaniyazov
  * Date: 5/3/2021 9:43 PM
  */
 public class AuthHelper {

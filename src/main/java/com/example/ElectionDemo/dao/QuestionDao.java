@@ -5,7 +5,7 @@ import com.example.ElectionDemo.dto.QuestionDto;
 import java.util.*;
 
 /**
- * Author: Ulug'bek Ro'zimboyev  <ulugbekrozimboyev@gmail.com>
+ * Author: Tukhtaboy Jumaniyazov
  * Date: 5/1/2021 5:42 PM
  */
 public class QuestionDao {

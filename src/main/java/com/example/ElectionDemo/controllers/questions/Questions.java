@@ -13,7 +13,7 @@ import java.io.IOException;
 import java.util.List;
 
 /**
- * Author: Ulug'bek Ro'zimboyev  <ulugbekrozimboyev@gmail.com>
+ * Author: Tukhtaboy Jumaniyazov 
  * Date: 5/1/2021 3:41 PM
  */
 @WebServlet(name = "questions", value = "/questions")
