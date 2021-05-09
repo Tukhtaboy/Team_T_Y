@@ -1,0 +1,7 @@
+com.example.ElectionDemo.controllers.candidates
+com.example.ElectionDemo.controllers.questions
+com.example.ElectionDemo.dao
+com.example.ElectionDemo.dto
+com.example.ElectionDemo.helpers
+com.example.ElectionDemo.servlets.auth
+com.example.ElectionDemo.servlets.upload

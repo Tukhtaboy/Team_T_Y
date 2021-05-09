@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"com.example.ElectionDemo.controllers.candidates"},{"l":"com.example.ElectionDemo.controllers.questions"},{"l":"com.example.ElectionDemo.dao"},{"l":"com.example.ElectionDemo.dto"},{"l":"com.example.ElectionDemo.helpers"},{"l":"com.example.ElectionDemo.servlets.auth"},{"l":"com.example.ElectionDemo.servlets.upload"}]
