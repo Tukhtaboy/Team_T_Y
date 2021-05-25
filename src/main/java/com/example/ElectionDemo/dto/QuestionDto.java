@@ -2,12 +2,17 @@ package com.example.ElectionDemo.dto;
 
 import lombok.Data;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 /**
- * Author: Tukhtaboy Jumaniyazov 
+ * Author: Tukhtaboy Jumaniyazov
  * Date: 5/1/2021 5:31 PM
  */
 @Data
+@Entity
 public class QuestionDto {
+    @Id
     private Long id;
     private String title;
     private Answer answer;
@@ -19,28 +24,4 @@ public class QuestionDto {
 
     public QuestionDto() {
     }
-
-	public Long getId() {
-		return id;
-	}
-
-	public void setId(Long id) {
-		this.id = id;
-	}
-
-	public String getTitle() {
-		return title;
-	}
-
-	public void setTitle(String title) {
-		this.title = title;
-	}
-
-	public Answer getAnswer() {
-		return answer;
-	}
-
-	public void setAnswer(Answer answer) {
-		this.answer = answer;
-	}
 }

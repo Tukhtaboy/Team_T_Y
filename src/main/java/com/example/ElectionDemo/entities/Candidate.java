@@ -1,24 +1,19 @@
-package com.example.ElectionDemo.dto;
+package com.example.ElectionDemo.entities;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
 import java.util.Map;
 
-/**
- * Author: Tukhtaboy Jumaniyazov
- * Date: 5/1/2021 5:30 PM
- */
+@Entity
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-@Builder
-@Entity
-public class CandidateDto {
+public class Candidate {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String fullName;
     private String currentJob;
